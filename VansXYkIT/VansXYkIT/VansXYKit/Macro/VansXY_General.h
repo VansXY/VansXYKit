@@ -52,7 +52,7 @@
 #define kRangeZero NSMakeRange(0, 0)
 
 // iPhone X
-#define  HXBIPhoneX (kScreenWidth == 375.f && kScreenHeight == 812.f ? YES : NO)
+#define  HXBIPhoneX (kWidth == 375.f && kHeight == 812.f ? YES : NO)
 // 状态栏高度
 #define  HXBStatusBarHeight      (HXBIPhoneX ? 44.f : 20.f)
 // 导航栏高度

@@ -1,0 +1,19 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target "VansXYkIT" do
+pod 'AFNetworking'
+pod 'MJRefresh', '~> 3.0.7'
+pod 'SDWebImage', '~> 3.7.4'
+pod 'Masonry'
+pod 'YYModel'
+pod 'WebViewJavascriptBridge','~> 4.1.3'
+pod 'ReactiveObjC'
+pod 'UICKeyChainStore'
+pod 'MBProgressHUD'
+pod 'SDCycleScrollView','~> 1.64'
+pod 'IQKeyboardManager', '~> 5.0.2'
+pod 'Fabric'
+pod 'Crashlytics'
+
+end
