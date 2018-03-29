@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  VansXYkIT
+//
+//  Created by HXB-xiaoYang on 2017/12/25.
+//  Copyright © 2017年 VansXY. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "VansXYHeader.h"
+#import <UIKit/UIKit.h>
+#import "Masonry.h"
+#import "VansXY_General.h"
+
+#endif /* PrefixHeader_pch */

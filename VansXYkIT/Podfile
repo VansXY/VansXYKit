@@ -15,5 +15,6 @@ pod 'SDCycleScrollView','~> 1.64'
 pod 'IQKeyboardManager', '~> 5.0.2'
 pod 'Fabric'
 pod 'Crashlytics'
+pod 'VansXYKit'
 
 end

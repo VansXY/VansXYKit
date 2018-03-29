@@ -1,0 +1,938 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0739488F4BA973AE95771E /* libPods-VansXYkIT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDB844A01A4AE6AFEE4A87F /* libPods-VansXYkIT.a */; };
+		E1FA68711FECA19E00D84338 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68701FECA19E00D84338 /* AppDelegate.m */; };
+		E1FA68741FECA19E00D84338 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68731FECA19E00D84338 /* ViewController.m */; };
+		E1FA68771FECA19E00D84338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FA68751FECA19E00D84338 /* Main.storyboard */; };
+		E1FA68791FECA19E00D84338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FA68781FECA19E00D84338 /* Assets.xcassets */; };
+		E1FA687C1FECA19E00D84338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FA687A1FECA19E00D84338 /* LaunchScreen.storyboard */; };
+		E1FA687F1FECA19E00D84338 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA687E1FECA19E00D84338 /* main.m */; };
+		E1FA68891FECA19F00D84338 /* VansXYkITTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68881FECA19F00D84338 /* VansXYkITTests.m */; };
+		E1FA68941FECA19F00D84338 /* VansXYkITUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68931FECA19F00D84338 /* VansXYkITUITests.m */; };
+		E1FA68D01FECA1AC00D84338 /* VasnXY_CodeNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68A51FECA1AC00D84338 /* VasnXY_CodeNumber.m */; };
+		E1FA68D11FECA1AC00D84338 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1FA68AD1FECA1AC00D84338 /* area.plist */; };
+		E1FA68D21FECA1AC00D84338 /* NSArray+IDPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68B21FECA1AC00D84338 /* NSArray+IDPExtension.m */; };
+		E1FA68D31FECA1AC00D84338 /* NSAttributedString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68B51FECA1AC00D84338 /* NSAttributedString+Util.m */; };
+		E1FA68D41FECA1AC00D84338 /* NSDictionary+IDPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68B81FECA1AC00D84338 /* NSDictionary+IDPExtension.m */; };
+		E1FA68D51FECA1AC00D84338 /* VansXYTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68BB1FECA1AC00D84338 /* VansXYTools.m */; };
+		E1FA68D61FECA1AC00D84338 /* NSString+IDPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68BE1FECA1AC00D84338 /* NSString+IDPExtension.m */; };
+		E1FA68D71FECA1AC00D84338 /* NSString+VansXY_Number.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68C01FECA1AC00D84338 /* NSString+VansXY_Number.m */; };
+		E1FA68D81FECA1AC00D84338 /* NSString+VansXY_Standard.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68C21FECA1AC00D84338 /* NSString+VansXY_Standard.m */; };
+		E1FA68D91FECA1AC00D84338 /* UIColor+HxbColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68C51FECA1AC00D84338 /* UIColor+HxbColor.m */; };
+		E1FA68DA1FECA1AC00D84338 /* UIResponder+FindNext.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68C81FECA1AC00D84338 /* UIResponder+FindNext.m */; };
+		E1FA68DB1FECA1AC00D84338 /* UIViewController+HXBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68CB1FECA1AC00D84338 /* UIViewController+HXBUtil.m */; };
+		E1FA68DC1FECA1AC00D84338 /* NSObject+VansXYRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68CE1FECA1AC00D84338 /* NSObject+VansXYRuntime.m */; };
+		E1FA68E01FF0C85300D84338 /* NSString.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FA68DE1FF0C85300D84338 /* NSString.png */; };
+		E1FA68E11FF0C85300D84338 /* 项目规范化.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FA68DF1FF0C85300D84338 /* 项目规范化.png */; };
+		E1FA68E31FF0C98A00D84338 /* 项目文件夹.png in Resources */ = {isa = PBXBuildFile; fileRef = E1FA68E21FF0C98A00D84338 /* 项目文件夹.png */; };
+		E1FA68E81FF0D82F00D84338 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68E71FF0D82F00D84338 /* BaseViewController.m */; };
+		E1FA68F31FF0DA3500D84338 /* HXBColourGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68EC1FF0DA3500D84338 /* HXBColourGradientView.m */; };
+		E1FA68F41FF0DA3500D84338 /* HXBNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68EF1FF0DA3500D84338 /* HXBNoDataView.m */; };
+		E1FA68F51FF0DA3500D84338 /* HXBNoNetworkStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FA68F21FF0DA3500D84338 /* HXBNoNetworkStatusView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1FA68851FECA19F00D84338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1FA68641FECA19E00D84338 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FA686B1FECA19E00D84338;
+			remoteInfo = VansXYkIT;
+		};
+		E1FA68901FECA19F00D84338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1FA68641FECA19E00D84338 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1FA686B1FECA19E00D84338;
+			remoteInfo = VansXYkIT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DDB844A01A4AE6AFEE4A87F /* libPods-VansXYkIT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VansXYkIT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		709C56890C0CE5D34288060D /* Pods-VansXYkIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VansXYkIT.release.xcconfig"; path = "Pods/Target Support Files/Pods-VansXYkIT/Pods-VansXYkIT.release.xcconfig"; sourceTree = "<group>"; };
+		B7120C15FD15EB2A7664463A /* Pods-VansXYkIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VansXYkIT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VansXYkIT/Pods-VansXYkIT.debug.xcconfig"; sourceTree = "<group>"; };
+		E1FA686C1FECA19E00D84338 /* VansXYkIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VansXYkIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FA686F1FECA19E00D84338 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1FA68701FECA19E00D84338 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1FA68721FECA19E00D84338 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1FA68731FECA19E00D84338 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1FA68761FECA19E00D84338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1FA68781FECA19E00D84338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1FA687B1FECA19E00D84338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1FA687D1FECA19E00D84338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FA687E1FECA19E00D84338 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1FA68841FECA19F00D84338 /* VansXYkITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VansXYkITTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FA68881FECA19F00D84338 /* VansXYkITTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VansXYkITTests.m; sourceTree = "<group>"; };
+		E1FA688A1FECA19F00D84338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FA688F1FECA19F00D84338 /* VansXYkITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VansXYkITUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FA68931FECA19F00D84338 /* VansXYkITUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VansXYkITUITests.m; sourceTree = "<group>"; };
+		E1FA68951FECA19F00D84338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FA68A41FECA1AC00D84338 /* VasnXY_CodeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VasnXY_CodeNumber.h; sourceTree = "<group>"; };
+		E1FA68A51FECA1AC00D84338 /* VasnXY_CodeNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VasnXY_CodeNumber.m; sourceTree = "<group>"; };
+		E1FA68A61FECA1AC00D84338 /* VansXY_API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VansXY_API.h; sourceTree = "<group>"; };
+		E1FA68A71FECA1AC00D84338 /* VansXY_Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VansXY_Category.h; sourceTree = "<group>"; };
+		E1FA68A81FECA1AC00D84338 /* VansXY_FuncSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VansXY_FuncSwitch.h; sourceTree = "<group>"; };
+		E1FA68A91FECA1AC00D84338 /* VansXY_General.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VansXY_General.h; sourceTree = "<group>"; };
+		E1FA68AA1FECA1AC00D84338 /* VansXY_NSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VansXY_NSLog.h; sourceTree = "<group>"; };
+		E1FA68AB1FECA1AC00D84338 /* VansXY_SDKHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VansXY_SDKHeader.h; sourceTree = "<group>"; };
+		E1FA68AD1FECA1AC00D84338 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		E1FA68B11FECA1AC00D84338 /* NSArray+IDPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+IDPExtension.h"; sourceTree = "<group>"; };
+		E1FA68B21FECA1AC00D84338 /* NSArray+IDPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+IDPExtension.m"; sourceTree = "<group>"; };
+		E1FA68B41FECA1AC00D84338 /* NSAttributedString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Util.h"; sourceTree = "<group>"; };
+		E1FA68B51FECA1AC00D84338 /* NSAttributedString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Util.m"; sourceTree = "<group>"; };
+		E1FA68B71FECA1AC00D84338 /* NSDictionary+IDPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+IDPExtension.h"; sourceTree = "<group>"; };
+		E1FA68B81FECA1AC00D84338 /* NSDictionary+IDPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+IDPExtension.m"; sourceTree = "<group>"; };
+		E1FA68BA1FECA1AC00D84338 /* VansXYTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VansXYTools.h; sourceTree = "<group>"; };
+		E1FA68BB1FECA1AC00D84338 /* VansXYTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VansXYTools.m; sourceTree = "<group>"; };
+		E1FA68BD1FECA1AC00D84338 /* NSString+IDPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IDPExtension.h"; sourceTree = "<group>"; };
+		E1FA68BE1FECA1AC00D84338 /* NSString+IDPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IDPExtension.m"; sourceTree = "<group>"; };
+		E1FA68BF1FECA1AC00D84338 /* NSString+VansXY_Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VansXY_Number.h"; sourceTree = "<group>"; };
+		E1FA68C01FECA1AC00D84338 /* NSString+VansXY_Number.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VansXY_Number.m"; sourceTree = "<group>"; };
+		E1FA68C11FECA1AC00D84338 /* NSString+VansXY_Standard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VansXY_Standard.h"; sourceTree = "<group>"; };
+		E1FA68C21FECA1AC00D84338 /* NSString+VansXY_Standard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VansXY_Standard.m"; sourceTree = "<group>"; };
+		E1FA68C41FECA1AC00D84338 /* UIColor+HxbColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HxbColor.h"; sourceTree = "<group>"; };
+		E1FA68C51FECA1AC00D84338 /* UIColor+HxbColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HxbColor.m"; sourceTree = "<group>"; };
+		E1FA68C71FECA1AC00D84338 /* UIResponder+FindNext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+FindNext.h"; sourceTree = "<group>"; };
+		E1FA68C81FECA1AC00D84338 /* UIResponder+FindNext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+FindNext.m"; sourceTree = "<group>"; };
+		E1FA68CA1FECA1AC00D84338 /* UIViewController+HXBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HXBUtil.h"; sourceTree = "<group>"; };
+		E1FA68CB1FECA1AC00D84338 /* UIViewController+HXBUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HXBUtil.m"; sourceTree = "<group>"; };
+		E1FA68CD1FECA1AC00D84338 /* NSObject+VansXYRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+VansXYRuntime.h"; sourceTree = "<group>"; };
+		E1FA68CE1FECA1AC00D84338 /* NSObject+VansXYRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+VansXYRuntime.m"; sourceTree = "<group>"; };
+		E1FA68CF1FECA1AC00D84338 /* VansXYHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VansXYHeader.h; sourceTree = "<group>"; };
+		E1FA68DE1FF0C85300D84338 /* NSString.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NSString.png; sourceTree = "<group>"; };
+		E1FA68DF1FF0C85300D84338 /* 项目规范化.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "项目规范化.png"; sourceTree = "<group>"; };
+		E1FA68E21FF0C98A00D84338 /* 项目文件夹.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "项目文件夹.png"; sourceTree = "<group>"; };
+		E1FA68E51FF0CC4500D84338 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = VansXYKit/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		E1FA68E61FF0D82F00D84338 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		E1FA68E71FF0D82F00D84338 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		E1FA68EB1FF0DA3500D84338 /* HXBColourGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXBColourGradientView.h; sourceTree = "<group>"; };
+		E1FA68EC1FF0DA3500D84338 /* HXBColourGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXBColourGradientView.m; sourceTree = "<group>"; };
+		E1FA68EE1FF0DA3500D84338 /* HXBNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXBNoDataView.h; sourceTree = "<group>"; };
+		E1FA68EF1FF0DA3500D84338 /* HXBNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXBNoDataView.m; sourceTree = "<group>"; };
+		E1FA68F11FF0DA3500D84338 /* HXBNoNetworkStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXBNoNetworkStatusView.h; sourceTree = "<group>"; };
+		E1FA68F21FF0DA3500D84338 /* HXBNoNetworkStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXBNoNetworkStatusView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1FA68691FECA19E00D84338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0739488F4BA973AE95771E /* libPods-VansXYkIT.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FA68811FECA19F00D84338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FA688C1FECA19F00D84338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		325CC32C157173920E71D591 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7120C15FD15EB2A7664463A /* Pods-VansXYkIT.debug.xcconfig */,
+				709C56890C0CE5D34288060D /* Pods-VansXYkIT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D46D82CB4F2071E481F35B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DDB844A01A4AE6AFEE4A87F /* libPods-VansXYkIT.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1FA68631FECA19E00D84338 = {
+			isa = PBXGroup;
+			children = (
+				E1FA686E1FECA19E00D84338 /* VansXYkIT */,
+				E1FA68871FECA19F00D84338 /* VansXYkITTests */,
+				E1FA68921FECA19F00D84338 /* VansXYkITUITests */,
+				E1FA686D1FECA19E00D84338 /* Products */,
+				325CC32C157173920E71D591 /* Pods */,
+				5D46D82CB4F2071E481F35B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1FA686D1FECA19E00D84338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA686C1FECA19E00D84338 /* VansXYkIT.app */,
+				E1FA68841FECA19F00D84338 /* VansXYkITTests.xctest */,
+				E1FA688F1FECA19F00D84338 /* VansXYkITUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1FA686E1FECA19E00D84338 /* VansXYkIT */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA686F1FECA19E00D84338 /* AppDelegate.h */,
+				E1FA68701FECA19E00D84338 /* AppDelegate.m */,
+				E1FA68721FECA19E00D84338 /* ViewController.h */,
+				E1FA68731FECA19E00D84338 /* ViewController.m */,
+				E1FA68E51FF0CC4500D84338 /* PrefixHeader.pch */,
+				E1FA68E91FF0DA3500D84338 /* VansXYView */,
+				E1FA68DD1FF0C85300D84338 /* READMEReasource */,
+				E1FA68A11FECA1AC00D84338 /* VansXYKit */,
+				E1FA68751FECA19E00D84338 /* Main.storyboard */,
+				E1FA68781FECA19E00D84338 /* Assets.xcassets */,
+				E1FA687A1FECA19E00D84338 /* LaunchScreen.storyboard */,
+				E1FA687D1FECA19E00D84338 /* Info.plist */,
+				E1FA687E1FECA19E00D84338 /* main.m */,
+			);
+			path = VansXYkIT;
+			sourceTree = "<group>";
+		};
+		E1FA68871FECA19F00D84338 /* VansXYkITTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68881FECA19F00D84338 /* VansXYkITTests.m */,
+				E1FA688A1FECA19F00D84338 /* Info.plist */,
+			);
+			path = VansXYkITTests;
+			sourceTree = "<group>";
+		};
+		E1FA68921FECA19F00D84338 /* VansXYkITUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68931FECA19F00D84338 /* VansXYkITUITests.m */,
+				E1FA68951FECA19F00D84338 /* Info.plist */,
+			);
+			path = VansXYkITUITests;
+			sourceTree = "<group>";
+		};
+		E1FA68A11FECA1AC00D84338 /* VansXYKit */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68A21FECA1AC00D84338 /* Macro */,
+				E1FA68AC1FECA1AC00D84338 /* Resource */,
+				E1FA68AE1FECA1AC00D84338 /* Tools */,
+				E1FA68CF1FECA1AC00D84338 /* VansXYHeader.h */,
+			);
+			path = VansXYKit;
+			sourceTree = "<group>";
+		};
+		E1FA68A21FECA1AC00D84338 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68A31FECA1AC00D84338 /* Error_Code */,
+				E1FA68A61FECA1AC00D84338 /* VansXY_API.h */,
+				E1FA68A71FECA1AC00D84338 /* VansXY_Category.h */,
+				E1FA68A81FECA1AC00D84338 /* VansXY_FuncSwitch.h */,
+				E1FA68A91FECA1AC00D84338 /* VansXY_General.h */,
+				E1FA68AA1FECA1AC00D84338 /* VansXY_NSLog.h */,
+				E1FA68AB1FECA1AC00D84338 /* VansXY_SDKHeader.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		E1FA68A31FECA1AC00D84338 /* Error_Code */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68A41FECA1AC00D84338 /* VasnXY_CodeNumber.h */,
+				E1FA68A51FECA1AC00D84338 /* VasnXY_CodeNumber.m */,
+			);
+			path = Error_Code;
+			sourceTree = "<group>";
+		};
+		E1FA68AC1FECA1AC00D84338 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68AD1FECA1AC00D84338 /* area.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E1FA68AE1FECA1AC00D84338 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68E41FF0CB1C00D84338 /* BaseClass */,
+				E1FA68AF1FECA1AC00D84338 /* VansXY_Category */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E1FA68AF1FECA1AC00D84338 /* VansXY_Category */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68B01FECA1AC00D84338 /* NSArray */,
+				E1FA68B31FECA1AC00D84338 /* NSAttributedString */,
+				E1FA68B61FECA1AC00D84338 /* NSDictionary */,
+				E1FA68B91FECA1AC00D84338 /* NSObject */,
+				E1FA68BC1FECA1AC00D84338 /* NSString */,
+				E1FA68C31FECA1AC00D84338 /* UIColor */,
+				E1FA68C61FECA1AC00D84338 /* UIResponder */,
+				E1FA68C91FECA1AC00D84338 /* UIViewController */,
+				E1FA68CC1FECA1AC00D84338 /* VansXYRuntime */,
+			);
+			path = VansXY_Category;
+			sourceTree = "<group>";
+		};
+		E1FA68B01FECA1AC00D84338 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68B11FECA1AC00D84338 /* NSArray+IDPExtension.h */,
+				E1FA68B21FECA1AC00D84338 /* NSArray+IDPExtension.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		E1FA68B31FECA1AC00D84338 /* NSAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68B41FECA1AC00D84338 /* NSAttributedString+Util.h */,
+				E1FA68B51FECA1AC00D84338 /* NSAttributedString+Util.m */,
+			);
+			path = NSAttributedString;
+			sourceTree = "<group>";
+		};
+		E1FA68B61FECA1AC00D84338 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68B71FECA1AC00D84338 /* NSDictionary+IDPExtension.h */,
+				E1FA68B81FECA1AC00D84338 /* NSDictionary+IDPExtension.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		E1FA68B91FECA1AC00D84338 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68BA1FECA1AC00D84338 /* VansXYTools.h */,
+				E1FA68BB1FECA1AC00D84338 /* VansXYTools.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		E1FA68BC1FECA1AC00D84338 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68BD1FECA1AC00D84338 /* NSString+IDPExtension.h */,
+				E1FA68BE1FECA1AC00D84338 /* NSString+IDPExtension.m */,
+				E1FA68BF1FECA1AC00D84338 /* NSString+VansXY_Number.h */,
+				E1FA68C01FECA1AC00D84338 /* NSString+VansXY_Number.m */,
+				E1FA68C11FECA1AC00D84338 /* NSString+VansXY_Standard.h */,
+				E1FA68C21FECA1AC00D84338 /* NSString+VansXY_Standard.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		E1FA68C31FECA1AC00D84338 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68C41FECA1AC00D84338 /* UIColor+HxbColor.h */,
+				E1FA68C51FECA1AC00D84338 /* UIColor+HxbColor.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		E1FA68C61FECA1AC00D84338 /* UIResponder */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68C71FECA1AC00D84338 /* UIResponder+FindNext.h */,
+				E1FA68C81FECA1AC00D84338 /* UIResponder+FindNext.m */,
+			);
+			path = UIResponder;
+			sourceTree = "<group>";
+		};
+		E1FA68C91FECA1AC00D84338 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68CA1FECA1AC00D84338 /* UIViewController+HXBUtil.h */,
+				E1FA68CB1FECA1AC00D84338 /* UIViewController+HXBUtil.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		E1FA68CC1FECA1AC00D84338 /* VansXYRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68CD1FECA1AC00D84338 /* NSObject+VansXYRuntime.h */,
+				E1FA68CE1FECA1AC00D84338 /* NSObject+VansXYRuntime.m */,
+			);
+			path = VansXYRuntime;
+			sourceTree = "<group>";
+		};
+		E1FA68DD1FF0C85300D84338 /* READMEReasource */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68DE1FF0C85300D84338 /* NSString.png */,
+				E1FA68E21FF0C98A00D84338 /* 项目文件夹.png */,
+				E1FA68DF1FF0C85300D84338 /* 项目规范化.png */,
+			);
+			path = READMEReasource;
+			sourceTree = "<group>";
+		};
+		E1FA68E41FF0CB1C00D84338 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68E61FF0D82F00D84338 /* BaseViewController.h */,
+				E1FA68E71FF0D82F00D84338 /* BaseViewController.m */,
+			);
+			name = BaseClass;
+			path = VansXYKit/VansXYKit/Tools/BaseClass;
+			sourceTree = SOURCE_ROOT;
+		};
+		E1FA68E91FF0DA3500D84338 /* VansXYView */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68EA1FF0DA3500D84338 /* ColourGradientView */,
+				E1FA68ED1FF0DA3500D84338 /* NODataView */,
+				E1FA68F01FF0DA3500D84338 /* NONetworkStatus */,
+			);
+			name = VansXYView;
+			path = VansXYKit/VansXYView;
+			sourceTree = SOURCE_ROOT;
+		};
+		E1FA68EA1FF0DA3500D84338 /* ColourGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68EB1FF0DA3500D84338 /* HXBColourGradientView.h */,
+				E1FA68EC1FF0DA3500D84338 /* HXBColourGradientView.m */,
+			);
+			path = ColourGradientView;
+			sourceTree = "<group>";
+		};
+		E1FA68ED1FF0DA3500D84338 /* NODataView */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68EE1FF0DA3500D84338 /* HXBNoDataView.h */,
+				E1FA68EF1FF0DA3500D84338 /* HXBNoDataView.m */,
+			);
+			path = NODataView;
+			sourceTree = "<group>";
+		};
+		E1FA68F01FF0DA3500D84338 /* NONetworkStatus */ = {
+			isa = PBXGroup;
+			children = (
+				E1FA68F11FF0DA3500D84338 /* HXBNoNetworkStatusView.h */,
+				E1FA68F21FF0DA3500D84338 /* HXBNoNetworkStatusView.m */,
+			);
+			path = NONetworkStatus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1FA686B1FECA19E00D84338 /* VansXYkIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FA68981FECA19F00D84338 /* Build configuration list for PBXNativeTarget "VansXYkIT" */;
+			buildPhases = (
+				47EF43C86C12C08439D98055 /* [CP] Check Pods Manifest.lock */,
+				E1FA68681FECA19E00D84338 /* Sources */,
+				E1FA68691FECA19E00D84338 /* Frameworks */,
+				E1FA686A1FECA19E00D84338 /* Resources */,
+				273F1D58D9EC572F28EC49CF /* [CP] Embed Pods Frameworks */,
+				F13525DF415C279F180B2886 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VansXYkIT;
+			productName = VansXYkIT;
+			productReference = E1FA686C1FECA19E00D84338 /* VansXYkIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1FA68831FECA19F00D84338 /* VansXYkITTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FA689B1FECA19F00D84338 /* Build configuration list for PBXNativeTarget "VansXYkITTests" */;
+			buildPhases = (
+				E1FA68801FECA19F00D84338 /* Sources */,
+				E1FA68811FECA19F00D84338 /* Frameworks */,
+				E1FA68821FECA19F00D84338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1FA68861FECA19F00D84338 /* PBXTargetDependency */,
+			);
+			name = VansXYkITTests;
+			productName = VansXYkITTests;
+			productReference = E1FA68841FECA19F00D84338 /* VansXYkITTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1FA688E1FECA19F00D84338 /* VansXYkITUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FA689E1FECA19F00D84338 /* Build configuration list for PBXNativeTarget "VansXYkITUITests" */;
+			buildPhases = (
+				E1FA688B1FECA19F00D84338 /* Sources */,
+				E1FA688C1FECA19F00D84338 /* Frameworks */,
+				E1FA688D1FECA19F00D84338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1FA68911FECA19F00D84338 /* PBXTargetDependency */,
+			);
+			name = VansXYkITUITests;
+			productName = VansXYkITUITests;
+			productReference = E1FA688F1FECA19F00D84338 /* VansXYkITUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1FA68641FECA19E00D84338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = VansXY;
+				TargetAttributes = {
+					E1FA686B1FECA19E00D84338 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					E1FA68831FECA19F00D84338 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1FA686B1FECA19E00D84338;
+					};
+					E1FA688E1FECA19F00D84338 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1FA686B1FECA19E00D84338;
+					};
+				};
+			};
+			buildConfigurationList = E1FA68671FECA19E00D84338 /* Build configuration list for PBXProject "VansXYkIT" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1FA68631FECA19E00D84338;
+			productRefGroup = E1FA686D1FECA19E00D84338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1FA686B1FECA19E00D84338 /* VansXYkIT */,
+				E1FA68831FECA19F00D84338 /* VansXYkITTests */,
+				E1FA688E1FECA19F00D84338 /* VansXYkITUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1FA686A1FECA19E00D84338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FA687C1FECA19E00D84338 /* LaunchScreen.storyboard in Resources */,
+				E1FA68D11FECA1AC00D84338 /* area.plist in Resources */,
+				E1FA68E11FF0C85300D84338 /* 项目规范化.png in Resources */,
+				E1FA68E31FF0C98A00D84338 /* 项目文件夹.png in Resources */,
+				E1FA68791FECA19E00D84338 /* Assets.xcassets in Resources */,
+				E1FA68E01FF0C85300D84338 /* NSString.png in Resources */,
+				E1FA68771FECA19E00D84338 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FA68821FECA19F00D84338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FA688D1FECA19F00D84338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		273F1D58D9EC572F28EC49CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VansXYkIT/Pods-VansXYkIT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47EF43C86C12C08439D98055 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VansXYkIT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13525DF415C279F180B2886 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VansXYkIT/Pods-VansXYkIT-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/WebViewJavascriptBridge/WebViewJavascriptBridge/WebViewJavascriptBridge.js.txt",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WebViewJavascriptBridge.js.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VansXYkIT/Pods-VansXYkIT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1FA68681FECA19E00D84338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FA68D81FECA1AC00D84338 /* NSString+VansXY_Standard.m in Sources */,
+				E1FA68741FECA19E00D84338 /* ViewController.m in Sources */,
+				E1FA687F1FECA19E00D84338 /* main.m in Sources */,
+				E1FA68D51FECA1AC00D84338 /* VansXYTools.m in Sources */,
+				E1FA68DA1FECA1AC00D84338 /* UIResponder+FindNext.m in Sources */,
+				E1FA68DC1FECA1AC00D84338 /* NSObject+VansXYRuntime.m in Sources */,
+				E1FA68D01FECA1AC00D84338 /* VasnXY_CodeNumber.m in Sources */,
+				E1FA68F31FF0DA3500D84338 /* HXBColourGradientView.m in Sources */,
+				E1FA68D61FECA1AC00D84338 /* NSString+IDPExtension.m in Sources */,
+				E1FA68D91FECA1AC00D84338 /* UIColor+HxbColor.m in Sources */,
+				E1FA68F41FF0DA3500D84338 /* HXBNoDataView.m in Sources */,
+				E1FA68E81FF0D82F00D84338 /* BaseViewController.m in Sources */,
+				E1FA68D31FECA1AC00D84338 /* NSAttributedString+Util.m in Sources */,
+				E1FA68711FECA19E00D84338 /* AppDelegate.m in Sources */,
+				E1FA68F51FF0DA3500D84338 /* HXBNoNetworkStatusView.m in Sources */,
+				E1FA68D71FECA1AC00D84338 /* NSString+VansXY_Number.m in Sources */,
+				E1FA68DB1FECA1AC00D84338 /* UIViewController+HXBUtil.m in Sources */,
+				E1FA68D41FECA1AC00D84338 /* NSDictionary+IDPExtension.m in Sources */,
+				E1FA68D21FECA1AC00D84338 /* NSArray+IDPExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FA68801FECA19F00D84338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FA68891FECA19F00D84338 /* VansXYkITTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FA688B1FECA19F00D84338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FA68941FECA19F00D84338 /* VansXYkITUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1FA68861FECA19F00D84338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1FA686B1FECA19E00D84338 /* VansXYkIT */;
+			targetProxy = E1FA68851FECA19F00D84338 /* PBXContainerItemProxy */;
+		};
+		E1FA68911FECA19F00D84338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1FA686B1FECA19E00D84338 /* VansXYkIT */;
+			targetProxy = E1FA68901FECA19F00D84338 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1FA68751FECA19E00D84338 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1FA68761FECA19E00D84338 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1FA687A1FECA19E00D84338 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1FA687B1FECA19E00D84338 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1FA68961FECA19F00D84338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1FA68971FECA19F00D84338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1FA68991FECA19F00D84338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7120C15FD15EB2A7664463A /* Pods-VansXYkIT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VansXYKit/PrefixHeader.pch";
+				INFOPLIST_FILE = VansXYkIT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vickate.VansXYkIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1FA689A1FECA19F00D84338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 709C56890C0CE5D34288060D /* Pods-VansXYkIT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VansXYKit/PrefixHeader.pch";
+				INFOPLIST_FILE = VansXYkIT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vickate.VansXYkIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1FA689C1FECA19F00D84338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VansXYkITTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vickate.VansXYkITTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VansXYkIT.app/VansXYkIT";
+			};
+			name = Debug;
+		};
+		E1FA689D1FECA19F00D84338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VansXYkITTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vickate.VansXYkITTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VansXYkIT.app/VansXYkIT";
+			};
+			name = Release;
+		};
+		E1FA689F1FECA19F00D84338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VansXYkITUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vickate.VansXYkITUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VansXYkIT;
+			};
+			name = Debug;
+		};
+		E1FA68A01FECA19F00D84338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VansXYkITUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vickate.VansXYkITUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VansXYkIT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1FA68671FECA19E00D84338 /* Build configuration list for PBXProject "VansXYkIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FA68961FECA19F00D84338 /* Debug */,
+				E1FA68971FECA19F00D84338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FA68981FECA19F00D84338 /* Build configuration list for PBXNativeTarget "VansXYkIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FA68991FECA19F00D84338 /* Debug */,
+				E1FA689A1FECA19F00D84338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FA689B1FECA19F00D84338 /* Build configuration list for PBXNativeTarget "VansXYkITTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FA689C1FECA19F00D84338 /* Debug */,
+				E1FA689D1FECA19F00D84338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FA689E1FECA19F00D84338 /* Build configuration list for PBXNativeTarget "VansXYkITUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FA689F1FECA19F00D84338 /* Debug */,
+				E1FA68A01FECA19F00D84338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1FA68641FECA19E00D84338 /* Project object */;
+}
