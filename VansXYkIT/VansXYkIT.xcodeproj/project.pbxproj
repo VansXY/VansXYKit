@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2819943120BE9DB000C17ECF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819943020BE9DB000C17ECF /* AppDelegate.m */; };
+		2819943420BE9DB000C17ECF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819943320BE9DB000C17ECF /* ViewController.m */; };
+		2819943720BE9DB000C17ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2819943520BE9DB000C17ECF /* Main.storyboard */; };
+		2819943920BE9DB100C17ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2819943820BE9DB100C17ECF /* Assets.xcassets */; };
+		2819943C20BE9DB100C17ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2819943A20BE9DB100C17ECF /* LaunchScreen.storyboard */; };
+		2819943F20BE9DB100C17ECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819943E20BE9DB100C17ECF /* main.m */; };
+		2819944920BE9DB100C17ECF /* VansXYKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819944820BE9DB100C17ECF /* VansXYKitTests.m */; };
+		2819945420BE9DB100C17ECF /* VansXYKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819945320BE9DB100C17ECF /* VansXYKitUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2819944520BE9DB100C17ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2819942420BE9DB000C17ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2819942B20BE9DB000C17ECF;
+			remoteInfo = VansXYKit;
+		};
+		2819945020BE9DB100C17ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2819942420BE9DB000C17ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2819942B20BE9DB000C17ECF;
+			remoteInfo = VansXYKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2819942C20BE9DB000C17ECF /* VansXYKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VansXYKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2819942F20BE9DB000C17ECF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2819943020BE9DB000C17ECF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2819943220BE9DB000C17ECF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2819943320BE9DB000C17ECF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2819943620BE9DB000C17ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2819943820BE9DB100C17ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2819943B20BE9DB100C17ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2819943D20BE9DB100C17ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2819943E20BE9DB100C17ECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2819944420BE9DB100C17ECF /* VansXYKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VansXYKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2819944820BE9DB100C17ECF /* VansXYKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VansXYKitTests.m; sourceTree = "<group>"; };
+		2819944A20BE9DB100C17ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2819944F20BE9DB100C17ECF /* VansXYKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VansXYKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2819945320BE9DB100C17ECF /* VansXYKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VansXYKitUITests.m; sourceTree = "<group>"; };
+		2819945520BE9DB100C17ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2819942920BE9DB000C17ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2819944120BE9DB100C17ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2819944C20BE9DB100C17ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2819942320BE9DB000C17ECF = {
+			isa = PBXGroup;
+			children = (
+				2819942E20BE9DB000C17ECF /* VansXYKit */,
+				2819944720BE9DB100C17ECF /* VansXYKitTests */,
+				2819945220BE9DB100C17ECF /* VansXYKitUITests */,
+				2819942D20BE9DB000C17ECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2819942D20BE9DB000C17ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2819942C20BE9DB000C17ECF /* VansXYKit.app */,
+				2819944420BE9DB100C17ECF /* VansXYKitTests.xctest */,
+				2819944F20BE9DB100C17ECF /* VansXYKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2819942E20BE9DB000C17ECF /* VansXYKit */ = {
+			isa = PBXGroup;
+			children = (
+				2819942F20BE9DB000C17ECF /* AppDelegate.h */,
+				2819943020BE9DB000C17ECF /* AppDelegate.m */,
+				2819943220BE9DB000C17ECF /* ViewController.h */,
+				2819943320BE9DB000C17ECF /* ViewController.m */,
+				2819943520BE9DB000C17ECF /* Main.storyboard */,
+				2819943820BE9DB100C17ECF /* Assets.xcassets */,
+				2819943A20BE9DB100C17ECF /* LaunchScreen.storyboard */,
+				2819943D20BE9DB100C17ECF /* Info.plist */,
+				2819943E20BE9DB100C17ECF /* main.m */,
+			);
+			path = VansXYKit;
+			sourceTree = "<group>";
+		};
+		2819944720BE9DB100C17ECF /* VansXYKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				2819944820BE9DB100C17ECF /* VansXYKitTests.m */,
+				2819944A20BE9DB100C17ECF /* Info.plist */,
+			);
+			path = VansXYKitTests;
+			sourceTree = "<group>";
+		};
+		2819945220BE9DB100C17ECF /* VansXYKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2819945320BE9DB100C17ECF /* VansXYKitUITests.m */,
+				2819945520BE9DB100C17ECF /* Info.plist */,
+			);
+			path = VansXYKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2819942B20BE9DB000C17ECF /* VansXYKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2819945820BE9DB100C17ECF /* Build configuration list for PBXNativeTarget "VansXYKit" */;
+			buildPhases = (
+				2819942820BE9DB000C17ECF /* Sources */,
+				2819942920BE9DB000C17ECF /* Frameworks */,
+				2819942A20BE9DB000C17ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VansXYKit;
+			productName = VansXYKit;
+			productReference = 2819942C20BE9DB000C17ECF /* VansXYKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2819944320BE9DB100C17ECF /* VansXYKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2819945B20BE9DB100C17ECF /* Build configuration list for PBXNativeTarget "VansXYKitTests" */;
+			buildPhases = (
+				2819944020BE9DB100C17ECF /* Sources */,
+				2819944120BE9DB100C17ECF /* Frameworks */,
+				2819944220BE9DB100C17ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2819944620BE9DB100C17ECF /* PBXTargetDependency */,
+			);
+			name = VansXYKitTests;
+			productName = VansXYKitTests;
+			productReference = 2819944420BE9DB100C17ECF /* VansXYKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2819944E20BE9DB100C17ECF /* VansXYKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2819945E20BE9DB100C17ECF /* Build configuration list for PBXNativeTarget "VansXYKitUITests" */;
+			buildPhases = (
+				2819944B20BE9DB100C17ECF /* Sources */,
+				2819944C20BE9DB100C17ECF /* Frameworks */,
+				2819944D20BE9DB100C17ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2819945120BE9DB100C17ECF /* PBXTargetDependency */,
+			);
+			name = VansXYKitUITests;
+			productName = VansXYKitUITests;
+			productReference = 2819944F20BE9DB100C17ECF /* VansXYKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2819942420BE9DB000C17ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Vickate;
+				TargetAttributes = {
+					2819942B20BE9DB000C17ECF = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					2819944320BE9DB100C17ECF = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 2819942B20BE9DB000C17ECF;
+					};
+					2819944E20BE9DB100C17ECF = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 2819942B20BE9DB000C17ECF;
+					};
+				};
+			};
+			buildConfigurationList = 2819942720BE9DB000C17ECF /* Build configuration list for PBXProject "VansXYKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2819942320BE9DB000C17ECF;
+			productRefGroup = 2819942D20BE9DB000C17ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2819942B20BE9DB000C17ECF /* VansXYKit */,
+				2819944320BE9DB100C17ECF /* VansXYKitTests */,
+				2819944E20BE9DB100C17ECF /* VansXYKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2819942A20BE9DB000C17ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2819943C20BE9DB100C17ECF /* LaunchScreen.storyboard in Resources */,
+				2819943920BE9DB100C17ECF /* Assets.xcassets in Resources */,
+				2819943720BE9DB000C17ECF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2819944220BE9DB100C17ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2819944D20BE9DB100C17ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2819942820BE9DB000C17ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2819943420BE9DB000C17ECF /* ViewController.m in Sources */,
+				2819943F20BE9DB100C17ECF /* main.m in Sources */,
+				2819943120BE9DB000C17ECF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2819944020BE9DB100C17ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2819944920BE9DB100C17ECF /* VansXYKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2819944B20BE9DB100C17ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2819945420BE9DB100C17ECF /* VansXYKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2819944620BE9DB100C17ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2819942B20BE9DB000C17ECF /* VansXYKit */;
+			targetProxy = 2819944520BE9DB100C17ECF /* PBXContainerItemProxy */;
+		};
+		2819945120BE9DB100C17ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2819942B20BE9DB000C17ECF /* VansXYKit */;
+			targetProxy = 2819945020BE9DB100C17ECF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2819943520BE9DB000C17ECF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2819943620BE9DB000C17ECF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2819943A20BE9DB100C17ECF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2819943B20BE9DB100C17ECF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2819945620BE9DB100C17ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2819945720BE9DB100C17ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2819945920BE9DB100C17ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VansXYKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-Vickate.www.VansXYKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2819945A20BE9DB100C17ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VansXYKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-Vickate.www.VansXYKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2819945C20BE9DB100C17ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VansXYKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-Vickate.www.VansXYKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VansXYKit.app/VansXYKit";
+			};
+			name = Debug;
+		};
+		2819945D20BE9DB100C17ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VansXYKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-Vickate.www.VansXYKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VansXYKit.app/VansXYKit";
+			};
+			name = Release;
+		};
+		2819945F20BE9DB100C17ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VansXYKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-Vickate.www.VansXYKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VansXYKit;
+			};
+			name = Debug;
+		};
+		2819946020BE9DB100C17ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VansXYKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-Vickate.www.VansXYKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VansXYKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2819942720BE9DB000C17ECF /* Build configuration list for PBXProject "VansXYKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2819945620BE9DB100C17ECF /* Debug */,
+				2819945720BE9DB100C17ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2819945820BE9DB100C17ECF /* Build configuration list for PBXNativeTarget "VansXYKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2819945920BE9DB100C17ECF /* Debug */,
+				2819945A20BE9DB100C17ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2819945B20BE9DB100C17ECF /* Build configuration list for PBXNativeTarget "VansXYKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2819945C20BE9DB100C17ECF /* Debug */,
+				2819945D20BE9DB100C17ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2819945E20BE9DB100C17ECF /* Build configuration list for PBXNativeTarget "VansXYKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2819945F20BE9DB100C17ECF /* Debug */,
+				2819946020BE9DB100C17ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2819942420BE9DB000C17ECF /* Project object */;
+}

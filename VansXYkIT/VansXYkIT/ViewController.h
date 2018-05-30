@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  VansXYkIT
+//  VansXYKit
 //
-//  Created by HXB-xiaoYang on 2017/12/22.
-//  Copyright © 2017年 VansXY. All rights reserved.
+//  Created by 肖扬 on 2018/5/30.
+//  Copyright © 2018年 Vickate. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
