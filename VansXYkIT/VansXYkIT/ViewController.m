@@ -21,6 +21,7 @@
     [self addMethod];
     [self addSecondMethod];
     [self addThirdMethod];
+    [self addFixBug];
 }
 
 - (void)addMethod {
@@ -33,6 +34,10 @@
 
 - (void)addThirdMethod {
     NSLog(@"addThirdMethod");
+}
+
+- (void)addFixBug {
+    NSLog(@"addFixBug");
 }
 
 - (void)didReceiveMemoryWarning {
