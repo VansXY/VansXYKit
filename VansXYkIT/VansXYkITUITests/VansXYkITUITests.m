@@ -1,18 +1,18 @@
 //
-//  VansXYkITUITests.m
-//  VansXYkITUITests
+//  VansXYKitUITests.m
+//  VansXYKitUITests
 //
-//  Created by HXB-xiaoYang on 2017/12/22.
-//  Copyright © 2017年 VansXY. All rights reserved.
+//  Created by 肖扬 on 2018/5/30.
+//  Copyright © 2018年 Vickate. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface VansXYkITUITests : XCTestCase
+@interface VansXYKitUITests : XCTestCase
 
 @end
 
-@implementation VansXYkITUITests
+@implementation VansXYKitUITests
 
 - (void)setUp {
     [super setUp];
