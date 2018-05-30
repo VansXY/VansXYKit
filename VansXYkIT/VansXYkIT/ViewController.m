@@ -20,6 +20,7 @@
     NSLog(@"develop");
     [self addMethod];
     [self addSecondMethod];
+    [self addThirdMethod];
 }
 
 - (void)addMethod {
@@ -28,6 +29,10 @@
 
 - (void)addSecondMethod {
     NSLog(@"addSecondMethod");
+}
+
+- (void)addThirdMethod {
+    NSLog(@"addThirdMethod");
 }
 
 - (void)didReceiveMemoryWarning {
