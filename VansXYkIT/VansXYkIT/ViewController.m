@@ -19,13 +19,16 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"develop");
     [self addMethod];
-    
+    [self addSecondMethod];
 }
 
 - (void)addMethod {
     NSLog(@"addMethod");
 }
 
+- (void)addSecondMethod {
+    NSLog(@"addSecondMethod");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
